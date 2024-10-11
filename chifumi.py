@@ -19,7 +19,7 @@ def verdict(joueur,ordinateur):
 
 #fonction qui simule une partie de pierre-feuille-siseaux
 def partie():
-    joueur = imput("Entrer votre choix(p pour pierre , f pour feuille , c pour ciseaux , q pour quitter):").lower()
+    joueur = input("Entrer votre choix(p pour pierre , f pour feuille , c pour ciseaux , q pour quitter):").lower()
 
     if joueur == "q":
         print("Vous avez quitter le jeux.")
@@ -59,6 +59,6 @@ def jeu_pfc():
         print(f"Scores : Joueur {score_joueur}, Ordinateur {score_ordi}")
 
 # Appel de la fonction principale pour lancer le jeu
-jeu_pfc(1)
+jeu_pfc()
 
     
